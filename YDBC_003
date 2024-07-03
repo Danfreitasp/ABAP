@@ -5,7 +5,8 @@
 *&---------------------------------------------------------------------*
 REPORT ydbc_003.
 
-DATA: lv_altura TYPE p DECIMALS 2.
+DATA: lv_altura TYPE p DECIMALS 2,
+      lv_genero TYPE string.
 
 * Regra:
 * Se altura menor que 1.60 = Mostrar na tela texto = Baixo
